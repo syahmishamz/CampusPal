@@ -4,33 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9a031e15-58bc-40ae-a78a-03343f29d3e7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/campuspal/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/campuspal/controller/FAQController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/campuspal/controller/HomeController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/campuspal/controller/LoginController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/campuspal/controller/RegisterController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/campuspal/controller/SupportTicketController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/campuspal/model/Ticket.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/campuspal/model/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/campuspal/module-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/campuspal/util/JsonUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/tickets.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/users.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/fxml/Chatbot page" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/fxml/FAQ page" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/fxml/Login page" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/fxml/Registration Page" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/fxml/Support page" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/fxml/homepage" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/fxml/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/fxml/logo_white.png" afterDir="false" />
+    <list default="true" id="9a031e15-58bc-40ae-a78a-03343f29d3e7" name="Changes" comment="Created CampusPal desktop app">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/campuspal/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/campuspal/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -106,12 +82,25 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1752988934314</updated>
-      <workItem from="1752988935353" duration="13238000" />
+      <workItem from="1752988935353" duration="14068000" />
     </task>
+    <task id="LOCAL-00001" summary="Created CampusPal desktop app">
+      <option name="closed" value="true" />
+      <created>1753003875237</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1753003875237</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Created CampusPal desktop app" />
+    <option name="LAST_COMMIT_MESSAGE" value="Created CampusPal desktop app" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

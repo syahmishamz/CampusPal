@@ -10,7 +10,7 @@ public class Main extends Application {
     public void start(Stage stage) throws Exception {
         FXMLLoader loader = new FXMLLoader(getClass().getResource("/fxml/Login page.fxml"));
         Scene scene = new Scene(loader.load());
-        stage.setTitle("CampusPal - Student Helper Website");
+        stage.setTitle("CampusPal - Student Helper Desktop App");
         stage.setScene(scene);
         stage.show();
     }

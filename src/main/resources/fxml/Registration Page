@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox alignment="CENTER" prefHeight="500.0" prefWidth="520.0" spacing="20.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo.LoginController">
+
+    <padding>
+        <Insets bottom="30.0" left="30.0" right="30.0" top="30.0" />
+    </padding>
+
+    <!-- Logo and title -->
+    <ImageView fitHeight="190.0" fitWidth="198.0" preserveRatio="true">
+        <image>
+            <Image url="@logo.png" />
+        </image>
+    </ImageView>
+    <Label text="Registration ">
+        <font>
+            <Font name="Arial Bold" size="22.0" />
+        </font>
+    </Label>
+
+    <!-- Registration -->
+    <VBox alignment="CENTER_LEFT" spacing="15.0">
+        <Label prefHeight="18.0" prefWidth="62.0" text="Username:" />
+        <TextField fx:id="usernameField" promptText="Enter username" />
+
+        <Label text="Email:" />
+      <TextField fx:id="emailField" layoutX="10.0" layoutY="43.0" promptText="Enter email address" />
+
+        <Label text="Password:" />
+        <PasswordField fx:id="passwordField" promptText="Enter password" />
+    </VBox>
+
+    <HBox alignment="CENTER_LEFT" spacing="2" style="-fx-padding: 10;" />
+    <HBox alignment="CENTER_LEFT" spacing="2" style="-fx-padding: 10;" />
+
+    <Button fx:id="confirmregisterButton" layoutX="160.0" layoutY="382.0" onAction="#handleConfirmRegister" prefWidth="100.0" style="-fx-background-color: dodgerblue; -fx-text-fill: white; -fx-font-weight: bold;" text="Register" />
+</VBox>

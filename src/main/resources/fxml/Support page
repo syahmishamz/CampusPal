@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+
+
+<BorderPane xmlns:fx="http://javafx.com/fxml" fx:controller="userinput.UserInputController" prefWidth="600" prefHeight="400">
+
+    <!-- Top Navigation -->
+    <top>
+        <HBox alignment="CENTER_LEFT" prefHeight="59.0" prefWidth="614.0" spacing="20" style="-fx-background-color: red; -fx-padding: 10;">
+            <ImageView fitHeight="72.0" fitWidth="96.0" preserveRatio="true">
+                <image>
+                    <Image url="@logo_white.png" />
+                </image>
+            </ImageView>
+            <Button prefHeight="48.0" prefWidth="120.0" style="-fx-background-color: transparent; -fx-text-fill: white; -fx-font-weight: bold;" text="Support Page">
+                <font>
+                    <Font size="15.0" />
+                </font></Button>
+
+            <Region HBox.hgrow="ALWAYS" />
+            <Button style="-fx-background-color: transparent; -fx-text-fill: white; -fx-font-weight: bold;" text="Home" />
+            <Button style="-fx-background-color: transparent; -fx-text-fill: white; -fx-font-weight: bold;" text="Chatbot" />
+            <Button style="-fx-background-color: transparent; -fx-text-fill: white; -fx-font-weight: bold;" text="FAQ" />
+        </HBox>
+    </top>
+
+    <!-- Ticket Form -->
+    <center>
+        <VBox alignment="CENTER_LEFT" spacing="15" style="-fx-padding: 20;">
+            <Label text="Type out your issue:" style="-fx-font-size: 16; -fx-font-weight: bold;"/>
+            <TextArea fx:id="userTextArea" promptText="Type your message here.." prefRowCount="10" prefWidth="200"/>
+            <Button fx:id="submitButton" text="Submit ticket" style="-fx-background-color: dodgerblue; -fx-text-fill: white; -fx-font-size: 14; -fx-padding: 5 15;" onAction="#handleSubmit"/>
+        </VBox>
+    </center>
+
+</BorderPane>

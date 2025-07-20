@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+
+
+<BorderPane xmlns:fx="http://javafx.com/fxml" fx:controller="userinput.UserInputController" prefWidth="600" prefHeight="400">
+
+    <!-- Top Navigation -->
+    <top>
+        <HBox alignment="CENTER_LEFT" prefHeight="59.0" prefWidth="614.0" spacing="20" style="-fx-background-color: red; -fx-padding: 10;">
+            <ImageView fitHeight="72.0" fitWidth="96.0" preserveRatio="true">
+                <image>
+                    <Image url="@logo_white.png" />
+                </image>
+            </ImageView>
+            <Button prefHeight="48.0" prefWidth="120.0" style="-fx-background-color: transparent; -fx-text-fill: white; -fx-font-weight: bold;" text="ChatBot Page">
+                <font>
+                    <Font size="15.0" />
+                </font></Button>
+
+            <Region HBox.hgrow="ALWAYS" />
+            <Button style="-fx-background-color: transparent; -fx-text-fill: white; -fx-font-weight: bold;" text="Homepage" />
+            <Button style="-fx-background-color: transparent; -fx-text-fill: white; -fx-font-weight: bold;" text="Support" />
+            <Button style="-fx-background-color: transparent; -fx-text-fill: white; -fx-font-weight: bold;" text="FAQ" />
+        </HBox>
+    </top>
+
+
+    <!-- Chat History Area -->
+    <center>
+        <ScrollPane fx:id="chatScrollPane" fitToWidth="true" style="-fx-background-color: #f5f5f5;">
+            <VBox fx:id="chatContainer" spacing="10" style="-fx-padding: 10;" prefWidth="580">
+                <!-- Initial Bot Message -->
+                <HBox alignment="CENTER_LEFT">
+                    <Label text="Hello! What can I do for you?"
+                           style="-fx-background-color: #f1f1f1; -fx-padding: 8; -fx-background-radius: 8;"
+                           wrapText="true"/>
+                </HBox>
+            </VBox>
+        </ScrollPane>
+    </center>
+
+    <!-- User Input Area -->
+    <bottom>
+        <HBox spacing="10" style="-fx-padding: 10;">
+            <TextField fx:id="userInputField" promptText="Type your message..." HBox.hgrow="ALWAYS"/>
+            <Button text="Send" fx:id="sendButton" style="-fx-background-color: red; -fx-text-fill: white;" onAction="#handleSend"/>
+        </HBox>
+    </bottom>
+</BorderPane>

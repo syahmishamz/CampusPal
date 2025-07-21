@@ -2,6 +2,7 @@ module campuspal {
     requires javafx.controls;
     requires javafx.fxml;
     requires langchain4j;
+    requires langchain4j.easy.rag;
     requires langchain4j.open.ai;
     requires langchain4j.core;
     requires org.apache.logging.log4j;

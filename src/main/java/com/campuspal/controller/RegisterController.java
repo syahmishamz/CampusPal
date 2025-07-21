@@ -14,6 +14,7 @@ public class RegisterController {
     @FXML private TextField emailField;
     @FXML private PasswordField passwordField;
 
+    //Confirm Registration
     @FXML
     public void handleConfirmRegister() throws Exception {
         User user = new User();
@@ -23,6 +24,7 @@ public class RegisterController {
         user.setRole("student");
         JsonUtil.registerUser(user);
 
+        //Open Login Page
         FXMLLoader loader = new FXMLLoader(getClass().getResource("/fxml/Login page.fxml"));
         Scene loginScene = new Scene(loader.load());
         Stage stage = (Stage) usernameField.getScene().getWindow();

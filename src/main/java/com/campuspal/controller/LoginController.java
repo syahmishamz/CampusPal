@@ -17,7 +17,8 @@ public class LoginController {
         String username = usernameField.getText();
         String password = passwordField.getText();
 
-        if(JsonUtil.validateUser(email,password)) {
+        //Open Home Page
+        if(JsonUtil.validateUser(username,password)) {
             FXMLLoader loader = new FXMLLoader(getClass().getResource("/fxml/homepage.fxml"));
             Scene homeScene = new Scene(loader.load());
             Stage stage = (Stage) usernameField.getScene().getWindow();
@@ -25,6 +26,7 @@ public class LoginController {
         }
     }
 
+    //Open Registration Page
     @FXML
     public void handleRegister() throws Exception {
         FXMLLoader loader = new FXMLLoader(getClass().getResource("/fxml/Registration Page.fxml"));

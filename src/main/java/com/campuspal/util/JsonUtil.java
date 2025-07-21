@@ -14,13 +14,13 @@ public class JsonUtil {
     private static final String USER_FILE = "src/main/resources/data/users.json";
     private static final String TICKET_FILE = "src/main/resources/data/tickets.json";
 
-    public static boolean validateUser(String email, String password) {
+    public static boolean validateUser(String username, String password) {
         try {
             Reader reader = new FileReader(USER_FILE);
             Type listType = new TypeToken<List<User>>(){}.getType();
             List<User> users = new Gson().fromJson(reader, listType);
             for (User user : users) {
-                if (user.getEmail().equals(email) && user.getPassword().equals(password)) {
+                if (user.getUsername().equals(username) && user.getPassword().equals(password)) {
                     return true;
                 }
             }

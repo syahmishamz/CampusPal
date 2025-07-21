@@ -1,11 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import javafx.scene.control.*?>
-<?import javafx.scene.image.*?>
-<?import javafx.scene.layout.*?>
-<?import javafx.scene.text.*?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Region?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
 
-<BorderPane prefHeight="539.0" prefWidth="614.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1">
+<BorderPane prefHeight="539.0" prefWidth="614.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.campuspal.controller.FAQController">
 
     <!-- Top Navigation -->
     <top>
@@ -21,9 +26,9 @@
                 </font></Button>
 
             <Region HBox.hgrow="ALWAYS" />
-            <Button style="-fx-background-color: transparent; -fx-text-fill: white; -fx-font-weight: bold;" text="Home" />
-            <Button style="-fx-background-color: transparent; -fx-text-fill: white; -fx-font-weight: bold;" text="Chatbot" />
-            <Button style="-fx-background-color: transparent; -fx-text-fill: white; -fx-font-weight: bold;" text="Support" />
+            <Button fx:id="homeButton" onAction="#handleHome" style="-fx-background-color: transparent; -fx-text-fill: white; -fx-font-weight: bold;" text="Home" />
+            <Button fx:id="chatBotButton" onAction="#handlechatBot" style="-fx-background-color: transparent; -fx-text-fill: white; -fx-font-weight: bold;" text="Chatbot" />
+            <Button fx:id="supportButton" onAction="#handleSupport" style="-fx-background-color: transparent; -fx-text-fill: white; -fx-font-weight: bold;" text="Support" />
         </HBox>
     </top>
 
@@ -31,46 +36,38 @@
     <center>
         <VBox alignment="CENTER" spacing="15" style="-fx-padding: 40;">
 
-            <VBox style="-fx-border-color: #ccc; -fx-border-width: 1; -fx-padding: 10; -fx-background-color: #f9f9f9;" spacing="5" prefWidth="600">
+            <VBox prefWidth="600" spacing="5" style="-fx-border-color: #ccc; -fx-border-width: 1; -fx-padding: 10; -fx-background-color: #f9f9f9;">
                 <HBox alignment="CENTER_LEFT">
-                    <Label text="❓ What is MindShift?" style="-fx-font-weight: bold; -fx-font-size: 14;" HBox.hgrow="ALWAYS"/>
-                    <Region HBox.hgrow="ALWAYS"/>
-                    <Button fx:id="arrowBtn1" text="▶" style="-fx-background-color: transparent; -fx-font-size: 24; " onAction="#toggleAnswer1"/>
+                    <Label style="-fx-font-weight: bold; -fx-font-size: 14;" text="❓ What is CampusPal?" HBox.hgrow="ALWAYS" />
+                    <Region HBox.hgrow="ALWAYS" />
+                    <Button fx:id="arrowBtn1" onAction="#toggleAnswer1" style="-fx-background-color: transparent; -fx-font-size: 24; " text="▶" />
                 </HBox>
-                <Label fx:id="answer1"
-                       text="MindShift is an educational platform designed to provide personalized learning experiences for students."
-                       wrapText="true" visible="false"/>
+                <Label fx:id="answer1" text="MindShift is an educational platform designed to provide personalized learning experiences for students." visible="false" wrapText="true" />
             </VBox>
 
-            <VBox style="-fx-border-color: #ccc; -fx-border-width: 1; -fx-padding: 10; -fx-background-color: #f9f9f9;" spacing="5" prefWidth="600">
+            <VBox prefWidth="600" spacing="5" style="-fx-border-color: #ccc; -fx-border-width: 1; -fx-padding: 10; -fx-background-color: #f9f9f9;">
                 <HBox alignment="CENTER_LEFT">
-                    <Label text="❓ How do I sign up?" style="-fx-font-weight: bold; -fx-font-size: 14;" HBox.hgrow="ALWAYS"/>
-                    <Region HBox.hgrow="ALWAYS"/>
-                    <Button fx:id="arrowBtn2" text="▶" style="-fx-background-color: transparent; -fx-font-size: 24;" onAction="#toggleAnswer1"/>
+                    <Label style="-fx-font-weight: bold; -fx-font-size: 14;" text="❓ How do I sign up?" HBox.hgrow="ALWAYS" />
+                    <Region HBox.hgrow="ALWAYS" />
+                    <Button fx:id="arrowBtn2" onAction="#toggleAnswer2" style="-fx-background-color: transparent; -fx-font-size: 24;" text="▶" />
                 </HBox>
-                <Label fx:id="answer2"
-                       text="Click on the Sign Up button in the navigation bar and fill out your details to create an account."
-                       wrapText="true" visible="false"/>
+                <Label fx:id="answer2" text="Click on the Sign Up button in the navigation bar and fill out your details to create an account." visible="false" wrapText="true" />
             </VBox>
-            <VBox style="-fx-border-color: #ccc; -fx-border-width: 1; -fx-padding: 10; -fx-background-color: #f9f9f9;" spacing="5" prefWidth="600">
+            <VBox prefWidth="600" spacing="5" style="-fx-border-color: #ccc; -fx-border-width: 1; -fx-padding: 10; -fx-background-color: #f9f9f9;">
                 <HBox alignment="CENTER_LEFT">
-                    <Label text="❓ Is CampusPal free?" style="-fx-font-weight: bold; -fx-font-size: 14;" HBox.hgrow="ALWAYS"/>
-                    <Region HBox.hgrow="ALWAYS"/>
-                    <Button fx:id="arrowBtn3" text="▶" style="-fx-background-color: transparent; -fx-font-size: 24;" onAction="#toggleAnswer1"/>
+                    <Label style="-fx-font-weight: bold; -fx-font-size: 14;" text="❓ Is CampusPal free?" HBox.hgrow="ALWAYS" />
+                    <Region HBox.hgrow="ALWAYS" />
+                    <Button fx:id="arrowBtn3" onAction="#toggleAnswer3" style="-fx-background-color: transparent; -fx-font-size: 24;" text="▶" />
                 </HBox>
-                <Label fx:id="answer3"
-                       text="Yes it is free to use as long as your account is connected to your school email."
-                       wrapText="true" visible="false"/>
+                <Label fx:id="answer3" text="Yes it is free to use as long as your account is connected to your school email." visible="false" wrapText="true" />
             </VBox>
-            <VBox style="-fx-border-color: #ccc; -fx-border-width: 1; -fx-padding: 10; -fx-background-color: #f9f9f9;" spacing="5" prefWidth="600">
+            <VBox prefWidth="600" spacing="5" style="-fx-border-color: #ccc; -fx-border-width: 1; -fx-padding: 10; -fx-background-color: #f9f9f9;">
                 <HBox alignment="CENTER_LEFT">
-                    <Label text="❓ How do I submit tickets?" style="-fx-font-weight: bold; -fx-font-size: 14;" HBox.hgrow="ALWAYS"/>
-                    <Region HBox.hgrow="ALWAYS"/>
-                    <Button fx:id="arrowBtn4" text="▶" style="-fx-background-color: transparent; -fx-font-size: 24;" onAction="#toggleAnswer1"/>
+                    <Label style="-fx-font-weight: bold; -fx-font-size: 14;" text="❓ How do I submit tickets?" HBox.hgrow="ALWAYS" />
+                    <Region HBox.hgrow="ALWAYS" />
+                    <Button fx:id="arrowBtn4" onAction="#toggleAnswer4" style="-fx-background-color: transparent; -fx-font-size: 24;" text="▶" />
                 </HBox>
-                <Label fx:id="answer4"
-                       text="Click on the support button on the navigation bar, type out your queries and click send and it will be sent to our staff."
-                       wrapText="true" visible="false"/>
+                <Label fx:id="answer4" text="Click on the support button on the navigation bar, type out your queries and click send and it will be sent to our staff." visible="false" wrapText="true" />
             </VBox>
 
 

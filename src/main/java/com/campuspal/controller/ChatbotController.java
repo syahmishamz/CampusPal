@@ -23,7 +23,7 @@ public class ChatbotController {
                     .apiKey(System.getenv("OPENAI_API_KEY"))
                     .modelName("gpt-4o")
                     .build())
-            .chatMemory(MessageWindowChatMemory.withMaxMessages(10))
+            .chatMemory(MessageWindowChatMemory.withMaxMessages(20))
             .build();
 
     @FXML //Get AI Response

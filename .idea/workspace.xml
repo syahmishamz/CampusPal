@@ -4,25 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9a031e15-58bc-40ae-a78a-03343f29d3e7" name="Changes" comment="First commit">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/campuspal/controller/ChatbotController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="9a031e15-58bc-40ae-a78a-03343f29d3e7" name="Changes" comment="Second commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/campuspal/controller/FAQController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/campuspal/controller/FAQController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/campuspal/controller/HomeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/campuspal/controller/HomeController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/campuspal/controller/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/campuspal/controller/LoginController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/campuspal/controller/RegisterController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/campuspal/controller/RegisterController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/campuspal/controller/SupportTicketController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/campuspal/controller/SupportTicketController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/campuspal/model/Ticket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/campuspal/model/Ticket.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/campuspal/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/campuspal/model/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/campuspal/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/campuspal/module-info.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/campuspal/util/JsonUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/campuspal/util/JsonUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/fxml/Chatbot page" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/fxml/Chatbot page" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/fxml/FAQ page" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/fxml/FAQ page" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/fxml/Login page" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/fxml/Login page" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/fxml/Registration Page" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/fxml/Registration Page" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/fxml/Support page" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/fxml/Support page" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/fxml/homepage" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/fxml/homepage" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,18 +22,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "syahmishamz"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;syahmishamz&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/syahmishamz/CampusPal.git",
-    "accountId": "4cab5d2b-175b-4f44-a4f1-6f18facb9444"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/syahmishamz/CampusPal.git&quot;,
+    &quot;accountId&quot;: &quot;4cab5d2b-175b-4f44-a4f1-6f18facb9444&quot;
   }
-}]]></component>
+}</component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
   </component>
@@ -66,26 +49,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Main.executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/SHAMZ/IdeaProjects/CampusPal-app/src/main/resources/fxml",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "C:/Users/SHAMZ/IdeaProjects/CampusPal-app/src/main/java/org/example/Main.java",
-    "settings.editor.selected.configurable": "editor.preferences.fonts.default",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/SHAMZ/IdeaProjects/CampusPal-app/src/main/resources/fxml&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/SHAMZ/IdeaProjects/CampusPal-app/src/main/java/org/example/Main.java&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.fonts.default&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\SHAMZ\IdeaProjects\CampusPal-app\src\main\resources\fxml" />
@@ -110,7 +93,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1752988934314</updated>
-      <workItem from="1752988935353" duration="36799000" />
+      <workItem from="1752988935353" duration="37565000" />
+      <workItem from="1753095592009" duration="1757000" />
     </task>
     <task id="LOCAL-00001" summary="Created CampusPal desktop app">
       <option name="closed" value="true" />
@@ -128,7 +112,15 @@
       <option name="project" value="LOCAL" />
       <updated>1753004684721</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Second commit">
+      <option name="closed" value="true" />
+      <created>1753087849582</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1753087849582</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -148,7 +140,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Created CampusPal desktop app" />
     <MESSAGE value="Initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial commit" />
+    <MESSAGE value="Second commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Second commit" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
